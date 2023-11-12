@@ -22,12 +22,12 @@ To open the project please follow this link: https://anamorai.github.io/Console-
 
 Once you open the URL, you will need to open the console log. To do this please right click on the page and click 'Inspect'. It will look like this.
 
-![Right click on the page and click inspect](images/Step1.png)
+![Right click on the page and click inspect](Images/Step1.png)
 
 
 Following that, please ensure you open the console log to view the information. Once you have selected console (highlighted in blue on the image below) you will see the information calculated (highlighted in red in the image below): 
 
-![After opening the console, this is what you will see](images/step2.png)
+![After opening the console, this is what you will see](Images/Step2.png)
 
 ## Badges
 
