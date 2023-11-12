@@ -1,28 +1,70 @@
 # Console Finances
 
+I have been tasked with creating a code for analyzing the financial records of a company. I was provided with a financial dataset.
+
+To complete this I will calculate:
+
+* The total number of months included in the dataset.
+
+* The net total amount of Profit/Losses over the entire period.
+
+* The average of the **changes** in Profit/Losses over the entire period.
+
+* The greatest increase in Profit/Losses (date and amount) over the entire period.
+
+* The greatest decrease in Profit/Losses (date and amount) over the entire period.
+
+## Installation
+
+To open the project please follow this link: https://anamorai.github.io/Bootstrap-Portfolio/
+
+## Usage 
+
+Once you open the URL, you will need to open the console log. To do this please right click on the page and click 'Inspect'. It will look like this.
+
+![Right click on the page and click inspect](images/Step1.png)
 
 
+Following that, please ensure you open the console log to view the information. Once you have selected console (highlighted in blue on the image below) you will see the information calculated (highlighted in red in the image below): 
 
+![After opening the console, this is what you will see](images/step2.png)
 
+## Badges
 
-When you open your code in the browser your resulting analysis should look similar to the following:
+![GitHub deployments](https://img.shields.io/github/deployments/anamorai/Bootstrap-Portfolio/github-pages)
 
-  ```text
-  Financial Analysis 
-  ----------------
-  Total Months: 86
-  Total: $38382578
-  Average Change: -2315.12
-  Greatest Increase in Profits/Losses: Feb-2012 ($1926159)
-  Greatest Decrease in Profits/Losses: Sep-2013 ($-2196167)
-  ```
+![GitHub top language](https://img.shields.io/github/languages/top/anamorai/Bootstrap-Portfolio)
 
-Your final code should print the analysis to the console.
+## Features
 
-**Hints:**
+- Calculations in the console log that analyzes the financial records of a company.
 
-* You will need to do some research on your own for this project!
+## Credits
 
-* Remember, in order to combine strings and variables in the console you will need to use **concatenation**.
+I would like to give credit to EdX bootcamp and the tutors associated for the support I have recieved for this project. 
+I would like to give specific credit to my tutor, Samuel Cordova for helping me to understand javascript in more depth. 
+I would also like to give credit to the forums on stackoverflow for the useful threads on javascript functions and commands.
 
-* How do you only print to the nearest 100th in JavaScript?
+## License
+
+MIT License
+
+Copyright (c) [2023] [Anastasia Moraites]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
