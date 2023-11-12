@@ -1,5 +1,10 @@
 # Console Finances
 
+
+
+
+
+
 When you open your code in the browser your resulting analysis should look similar to the following:
 
   ```text
