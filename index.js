@@ -87,8 +87,9 @@ var finances = [
   ['Feb-2017', 671099],
 ];
 
+// Var 
+
 var months = finances.length;
-// var total;
 var change = 0;
 var avg;
 var analysis;
@@ -100,10 +101,9 @@ var crntmonth;
 var date;
 var amount;
 
-// * The total number of months included in the dataset.
-console.log("Total Months: " + months);
 
-// * The net total amount of Profit/Losses over the entire period.
+// Calculations
+
 let sum = 0;
 for (let i = 0; i < months; i++ ) {
   crntmonth = finances[i];
@@ -117,25 +117,39 @@ for (let i = 0; i < months; i++ ) {
     greatest = [date,change]
   }
 
-    if(change > least[1]){
+    if(change < least[1]){
     least = [date,change]
   }
 
+  avg = Math.round((netchange/(months - 1))* 100)/100
+
   sum += finances[i][1];
 }
-console.log("Total: $" +sum)
 
+// Console log display:
 
-// * The average of the **changes** in Profit/Losses over the entire period.
-//   * You will need to track what the total change in Profit/Losses are from month to month and then find the average.
-//   * (`Total/(Number of months - 1)`)
-
-
-
-// * The greatest increase in Profit/Losses (date and amount) over the entire period.
-
-
-
-// * The greatest decrease in Profit/Losses (date and amount) over the entire period.
-
-
+analysis =
+  'Financial Analysis ' +
+  '\n' +
+  '----------------' +
+  '\n' +
+  'Total Months: ' +
+  months +
+  '\n' +
+  'Total: $' +
+  sum +
+  '\n' +
+  'Average Change: ' +
+  avg +
+  '\n' +
+  'Greatest Increase in Profits/Losses: ' +
+  greatest[0] +
+  ' ($' +
+  greatest[1] +
+  ')\n' +
+  'Greatest Decrease in Profits/Losses: ' +
+  least[0] +
+  ' ($' +
+  least[1] +
+  ')';
+console.log(analysis);
