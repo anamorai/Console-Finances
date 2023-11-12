@@ -16,7 +16,7 @@ To complete this I will calculate:
 
 ## Installation
 
-To open the project please follow this link: https://anamorai.github.io/Bootstrap-Portfolio/
+To open the project please follow this link: https://anamorai.github.io/Console-Finances/
 
 ## Usage 
 
@@ -31,9 +31,10 @@ Following that, please ensure you open the console log to view the information. 
 
 ## Badges
 
-![GitHub deployments](https://img.shields.io/github/deployments/anamorai/Bootstrap-Portfolio/github-pages)
+![GitHub deployments](https://img.shields.io/github/deployments/anamorai/Console-Finances/github-pages)
 
-![GitHub top language](https://img.shields.io/github/languages/top/anamorai/Bootstrap-Portfolio)
+![GitHub top language](https://img.shields.io/github/languages/top/anamorai/Console-Finances)
+
 
 ## Features
 
